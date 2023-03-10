@@ -1,8 +1,10 @@
-/* .sidebar {
+.sidebar {
     margin: 0;
   padding: 0;
   width: 250px;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
+  background-color: white;
+
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -10,8 +12,9 @@
 
 .sidebar a {
     display: block;
-  color: black;
+  /* color: black; */
   padding: 7px;
+  font-size: medium;
   text-decoration: none;
 }
 
@@ -22,15 +25,18 @@
 
   .sidebar a:hover:not(.active) {
     background-color: #555;
-    color: white;
     transition: 0.5s;
     border-radius: 25px;
+    color: white;
+
   }
 
   div.content {
     margin-left: 250px;
     padding: 1px 16px;
     height: 1000px;
+    background-color: #f3f4f9;
+    border-radius: 50px;
   }
 
   @media screen and (max-width: 700px) {
@@ -40,7 +46,7 @@
       position: relative;
     }
     .sidebar a {float: left;}
-    div.content {margin-left: 300;}
+    div.content {margin-left: 0;}
 }
 
 @media screen and (max-width: 400px) {
@@ -51,5 +57,5 @@
   }
 
   .sidebarLink {
-    margin-top: 20vh;
-  } */
+    margin-top: 19vh;
+  }
